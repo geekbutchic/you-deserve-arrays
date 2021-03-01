@@ -2,16 +2,16 @@
  * YOUR CODE HERE *
  ******************/
 
-getFirstItemFrom = (num) => {
-  return num[0]
+getFirstItemFrom = (arr) => {
+  return arr[0]
 }
 
-getLastItemFrom = (num) => {
-  return num[num.length - 1];
+getLastItemFrom = (arr) => {
+  return arr[arr.length - 1];
 }
 
-getIndex3 = (str) => {
-  return str[3] || str[str.length -1];
+getIndex3 = (arr) => {
+  return arr[3] || arr[arr.length -1];
 } 
 
 isLongList = (arr) => {
@@ -23,15 +23,14 @@ isLongList = (arr) => {
 }
 
 firstItemIsNumber = (arr) => {
-  if (arr.includes()) {
-    return true;
-  } else {
-    return false;
-  }
+  const firstItem = arr[0];
+  return typeof firstItem === 'number';
 }
 
 secondCharOfThirdString = (arr) => {
-  
+  // const thirdItem = arr[2];
+  // return thirdItem[1];
+  return arr[2][1]
 }
 
  /********************************************
