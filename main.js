@@ -2,11 +2,37 @@
  * YOUR CODE HERE *
  ******************/
 
+getFirstItemFrom = (num) => {
+  return num[0]
+}
 
+getLastItemFrom = (num) => {
+  return num[num.length - 1];
+}
 
+getIndex3 = (str) => {
+  return str[3] || str[str.length -1];
+} 
 
+isLongList = (arr) => {
+  if (arr.length >= 10) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
+firstItemIsNumber = (arr) => {
+  if (arr.includes()) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
+secondCharOfThirdString = (arr) => {
+  
+}
 
  /********************************************
  * CODE DOWN HERE IS FOR INTERNAL USE ONLY. *
